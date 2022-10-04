@@ -1,38 +1,136 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import "../styles/Main.css"
 import bg from "../img/ok5.gif"
 import Typewriter from "typewriter-effect";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { BsFacebook } from 'react-icons/bs';
+import { BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs';
+import BottomTop from './BottomTop';
+
+
 
 
 export default function Main() {
+
+
     useEffect(() => {
         AOS.init({ duration: 800 });
+        window.addEventListener("wheel", function (e) {
+            if (e.deltaY > 0) {
+                // console.warn("scrolling up")
+
+
+                if (ref.current.classList.contains("translate-y-0")) {
+                    ref.current.classList.remove("translate-y-0")
+                    ref.current.classList.add("-translate-y-[150px]")
+                    hoe.current.classList.remove("h-16")
+                    // hoe.current.classList.remove("sm:h-[70px]")
+
+
+
+                }
+            } else if (e.deltaY < 0) {
+                // console.warn("scrolling down")
+
+                if (ref.current.classList.contains("-translate-y-[150px]")) {
+                    ref.current.classList.remove("-translate-y-[150px]")
+                    ref.current.classList.add("translate-y-0")
+                    hoe.current.classList.add("h-16")
+                    // hoe.current.classList.add("sm:h-[70px]")
+                }
+            }
+        })
+        window.addEventListener("scroll", function () {
+            if (window.pageYOffset > 200) {
+
+
+                if (hoe.current.classList.contains("bg-transparent")) {
+                    hoe.current.classList.remove("bg-transparent")
+                    hoe.current.classList.add("bg-[#ffffff]")
+                    suk.current.classList.remove("text-[#ffffff]")
+                    suk.current.classList.add("text-[#ef233cf2]")
+                    shik1.current.classList.remove("text-[#fffcff]")
+                    shik2.current.classList.remove("text-[#fffcff]")
+                    shik3.current.classList.remove("text-[#fffcff]")
+                    shik4.current.classList.remove("text-[#fffcff]")
+                    shik5.current.classList.remove("text-[#fffcff]")
+                    shik1.current.classList.add("text-[#ef233cf2]")
+                    shik2.current.classList.add("text-[#ef233cf2]")
+                    shik3.current.classList.add("text-[#ef233cf2]")
+                    shik4.current.classList.add("text-[#ef233cf2]")
+                    shik5.current.classList.add("text-[#ef233cf2]")
+
+
+                }
+
+
+            } else {
+
+                if (hoe.current.classList.contains("bg-[#ffffff]")) {
+                    hoe.current.classList.remove("bg-[#ffffff]")
+                    suk.current.classList.remove("bg-[#ffffff]")
+                    hoe.current.classList.add("bg-transparent")
+                    suk.current.classList.add("bg-transparent")
+                    suk.current.classList.remove("text-[#ef233cf2]")
+                    suk.current.classList.add("text-[#ffffff]")
+                    shik1.current.classList.remove("text-[#ef233cf2]")
+                    shik2.current.classList.remove("text-[#ef233cf2]")
+                    shik3.current.classList.remove("text-[#ef233cf2]")
+                    shik4.current.classList.remove("text-[#ef233cf2]")
+                    shik5.current.classList.remove("text-[#ef233cf2]")
+                    shik1.current.classList.add("text-[#fffcff]")
+                    shik2.current.classList.add("text-[#fffcff]")
+                    shik3.current.classList.add("text-[#fffcff]")
+                    shik4.current.classList.add("text-[#fffcff]")
+                    shik5.current.classList.add("text-[#fffcff]")
+                    // foo.current.classList.remove("hover:text-[#ffffff]")
+                    // foo.current.classList.add("hover:text-[#ef233cf2]")
+                }
+            }
+        })
     }, [])
+
+
+
+    const ref = useRef()
+    const suk = useRef()
+    const hoe = useRef()
+    const shik1 = useRef()
+    const shik2 = useRef()
+    const shik3 = useRef()
+    const shik4 = useRef()
+    const shik5 = useRef()
+
     return (
         <>
+            <div className='absolute' >
+                <i className='next  ' ><BottomTop /></i>
+            </div>
             <div className='hero   '>
-                <div className='flex justify-center   ' >
+                <div className="  "  >
+                    <div ref={hoe} className=' z-20 flex w-screen h-16  fixed top-0 items-center justify-center transition duration-1000 bg-transparent ' >
 
-                    <div className=' w-4/5 flex justify-between mx-auto   fixed top-5  ' >
+                        <div ref={ref} className=' w-4/5 flex justify-between items-center  mx-auto   fixed top-2 sm:top-0   transition duration-1000 translate-y-0 ' >
 
-                        <div className="" >Syed Ahsan</div>
-                        <div className='flex ' >
-                            <a className='text-2xl mr-1 sm:mr-2 ' href=""><i><BsFacebook /></i></a>
-                            <a className='text-2xl mr-1 sm:mr-2' href=""><i><BsFacebook /></i></a>
-                            <a className='text-2xl mr-1 sm:mr-2' href=""><i><BsFacebook /></i></a>
-                            <a className='text-2xl ' href=""><i><BsFacebook /></i></a>
+
+                            <div ref={suk} className="  text-4xl  sm:text-5xl text-[#ffffff]    hover:text-[#797979] " style={{ "fontFamily": "Ms Madi" }} >Syed Ahsan</div>
+
+                            <div className='flex' >
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik1} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsTwitter /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik2} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsFacebook /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik3} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsInstagram /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik4} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsLinkedin /></i></a>
+                                <a className='transition duration-300 hover:scale-110' href="/"><i ref={shik5} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsGithub /></i></a>
+
+                            </div>
 
                         </div>
 
+
+
                     </div>
-
-                    {/* <div className=' w-full border-dashed  border-b-[3px] border-[#ffffff] absolute top-16  ' ></div> */}
-
                 </div>
-                <div className=" h-screen w-screen sm:flex sm:mx-auto lg:px-20 ">
+                <div className=" h-screen w-screen sm:flex sm:mx-auto lg:px-20 z-10 ">
 
                     <div className='block sm:hidden' >
                         <div className='sm:h-full w-full flex items-center  ' >

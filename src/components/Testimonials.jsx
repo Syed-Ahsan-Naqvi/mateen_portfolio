@@ -24,7 +24,7 @@ export default function Testimonials() {
                             <div class="owl-carousel testimonials-carousel">
                                 <div class="testimonial-item">
                                     <div class="testimonial-img">
-                                        <img src={pic1} />
+                                        <img src={pic1} alt="" />
                                     </div>
                                     <div class="testimonial-text">
                                         <p  >
@@ -50,7 +50,7 @@ export default function Testimonials() {
                             <div class="owl-carousel testimonials-carousel">
                                 <div class="testimonial-item">
                                     <div class="testimonial-img">
-                                        <img src={pic2} />
+                                        <img src={pic2} alt="" />
                                     </div>
                                     <div class="testimonial-text">
                                         <p>
@@ -74,7 +74,7 @@ export default function Testimonials() {
                             <div class="owl-carousel testimonials-carousel">
                                 <div class="testimonial-item">
                                     <div class="testimonial-img">
-                                        <img src={pic3} />
+                                        <img src={pic3} alt="" />
                                     </div>
                                     <div class="testimonial-text">
                                         <p>

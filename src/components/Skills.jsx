@@ -18,7 +18,7 @@ export default function Skills() {
     return (
 
         <div className='mt-10' >
-            <div className='mt-[408px] sm:mt-28 text-center ' >
+            <div className='mt-[300px] sm:mt-28 text-center ' >
                 <div data-aos="zoom-in" >
                     <p className='text-base font-semibold tracking-[1px] uppercase  mb-3 inline-block ' ><i className=' inline-block relative top-[1.2rem] right-2 text-[50px]  text-[#ef233cf2]  ' ><AiOutlineLine /></i>What I do</p>
                     <h2 className=' text-[30px] sm:text-5xl tracking-[-1px] font-bold sm:font-bold ' >Awesome Quality Skills</h2>

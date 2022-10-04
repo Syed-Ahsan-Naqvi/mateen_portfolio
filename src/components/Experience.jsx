@@ -12,7 +12,7 @@ function Experience() {
     return (
 
         <div className="  experience sm:mt-16 " id="education">
-            <div className=" w-4/5 m-auto ">
+            <div className=" w-4/5 m-auto z-10 overflow-hidden ">
                 <div data-aos="zoom-in" className="text-center mb-20 "  >
                     <p className='text-base font-semibold tracking-[1px] uppercase  mb-3 inline-block ' ><i className=' inline-block relative top-[1.2rem] right-2 text-[50px]  text-[#ef233cf2]  ' ><AiOutlineLine /></i>My Resume</p>
                     <h2 className=' text-[30px] sm:text-5xl tracking-[-1px] font-bold sm:font-bold ' >Experience</h2>

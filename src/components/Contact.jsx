@@ -78,19 +78,19 @@ export default function Contact() {
     return (
 
 
-        <div className="about" data-wow-delay="0.1s" id="about"  >
+        <div className="about"   >
             <ToastContainer />
-            <div className="container-fluid">
+            <div className="container-fluid z-10 overflow-hidden ">
 
                 <div className="row align-items-center">
 
-                    <div className="col-lg-6   " data-aos="fade-right" >
+                    <div className="col-lg-6" data-aos="fade-right" >
                         <form  >
-                            <img className=' ' src={gif1} alt="" />
+                            <img src={gif1} alt="" />
                         </form>
                     </div>
                     <div className="col-lg-6" data-aos="zoom-in" >
-                        <form ref={form} onSubmit={handleSubmit(onSubmit)} id="jjj" className="  sm:pl-14 pl-6 py-24 sm:pr-32 pr-14 " style={{ "backgroundColor": "#ef233c" }}  >
+                        <form ref={form} onSubmit={handleSubmit(onSubmit)} className="  sm:pl-14 pl-6 py-24 sm:pr-32 pr-14 " style={{ "backgroundColor": "#ef233c" }}  >
                             <div className="mb-4" data-aos="fade-left" >
 
                                 <input {...register("name")} type="text" name='name' value={name} onChange={handleChange} style={{ "backgroundColor": "#ef233c", "borderBottom": "1px solid white" }} className=" text-white  border-b-white  w-full py-2 pr-3 placeholder:text-white  leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Name" />

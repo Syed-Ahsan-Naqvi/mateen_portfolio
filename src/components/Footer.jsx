@@ -1,12 +1,12 @@
 import React from 'react'
-import { BsFacebook, BsFillTelephoneOutboundFill, BsGithub, BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
+import { BsFacebook, BsFillTelephoneOutboundFill, BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
 
 
 export default function Footer() {
     return (
         <div>
-            <div className="footer wow fadeIn" data-wow-delay="0.3s">
-                <div className="container-fluid ">
+            <div className="footer wow fadeIn " data-wow-delay="0.3s">
+                <div className="container-fluid   ">
                     <div className="container">
                         <div className="footer-info">
                             <h2>Syed Ahsan Naqvi</h2>
