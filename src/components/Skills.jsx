@@ -49,39 +49,39 @@ export default function Skills() {
                                                 title="HTML5"
                                                 className=" bg-transparent text-[#e05025]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ..."
                                             >
-                                                <AiFillHtml5 />
+                                                <AiFillHtml5 title="HTML5" />
                                             </i>
                                         </div>
                                         <div
                                             title="CSS3"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16 w-16 lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#254bdd]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
-                                                <DiCss3 />
+                                            <i title="CSS3" className=" bg-transparent text-[#254bdd]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
+                                                <DiCss3 title="CSS3" />
                                             </i>
                                         </div>
                                         <div
                                             title="JavaScript"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16 w-16 lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#efd81d]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
-                                                <IoLogoJavascript />
+                                            <i title="JavaScript" className=" bg-transparent text-[#efd81d]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
+                                                <IoLogoJavascript title="JavaScript" />
                                             </i>
                                         </div>
                                         <div
                                             title="ReactJS"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16 w-16 lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#5ed3f3]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
-                                                <DiReact />
+                                            <i title="ReactJS" className=" bg-transparent text-[#5ed3f3]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
+                                                <DiReact title="ReactJS" />
                                             </i>
                                         </div>
                                         <div
                                             title="NodeJS"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16 w-16 lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#6ca25d]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
-                                                <DiNodejs />
+                                            <i title="NodeJS" className=" bg-transparent text-[#6ca25d]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
+                                                <DiNodejs title="NodeJS" />
                                             </i>
                                         </div>
                                     </div>
@@ -90,32 +90,32 @@ export default function Skills() {
                                             title="Node Package Manager"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16  w-16 lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#c53635]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
-                                                <DiNpm />
+                                            <i title="Node Package Manager" className=" bg-transparent text-[#c53635]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
+                                                <DiNpm title="Node Package Manager" />
                                             </i>
                                         </div>
                                         <div
                                             title="NextJS"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16  w-16 lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-black  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
-                                                <TbBrandNextjs />
+                                            <i title="NextJS" className=" bg-transparent text-black  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
+                                                <TbBrandNextjs title="NextJS" />
                                             </i>
                                         </div>
                                         <div
                                             title="Tailwind CSS"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16  w-16 lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#36b7f0]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
-                                                <SiTailwindcss />
+                                            <i title="Tailwind CSS" className=" bg-transparent text-[#36b7f0]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
+                                                <SiTailwindcss title="Tailwind CSS" />
                                             </i>
                                         </div>
                                         <div
                                             title="Material UI"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16  w-16 lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#007dc5]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
-                                                <SiMaterialui />
+                                            <i title="Material UI" className=" bg-transparent text-[#007dc5]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
+                                                <SiMaterialui title="Material UI" />
                                             </i>
                                         </div>
                                     </div>
@@ -124,24 +124,24 @@ export default function Skills() {
                                             title="JQuery"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16 w-16  lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#007dc5]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
-                                                <DiJqueryLogo />
+                                            <i title="JQuery" className=" bg-transparent text-[#007dc5]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
+                                                <DiJqueryLogo title="JQuery" />
                                             </i>
                                         </div>
                                         <div
                                             title="GIT"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16 w-16  lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#3d2d00]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
-                                                <FaGit />
+                                            <i title="GIT" className=" bg-transparent text-[#3d2d00]  text-5xl  lg:text-6xl transition   hover:scale-110  duration-300 ...">
+                                                <FaGit title="GIT" />
                                             </i>
                                         </div>
                                         <div
                                             title="C++"
                                             class="rounded-full bg-transparent shadow-2xl flex items-center justify-center h-16 w-16  lg:h-24 lg:w-24"
                                         >
-                                            <i className=" bg-transparent text-[#00427e]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
-                                                <Icon icon="bxl:c-plus-plus" />
+                                            <i title="C++" className=" bg-transparent text-[#00427e]  text-5xl  lg:text-7xl transition   hover:scale-110  duration-300 ...">
+                                                <Icon title="C++" icon="bxl:c-plus-plus" />
                                             </i>
                                         </div>
                                     </div>
@@ -157,7 +157,7 @@ export default function Skills() {
                                 <i className=" -m-2 mr-2 lg:-m-0 lg:mr-0 text-green-500 text-3xl lg:text-3xl">
                                     <MdOutlineDoneAll />
                                 </i>
-                                <p>Creating application backend in Node, Express & Flask.</p>
+                                <p>Creating application backend in Node & Express.</p>
                             </div>
                             <div className="flex py-2" data-aos="fade-right"  >
                                 <i className=" -m-2 mr-2 lg:-m-0 lg:mr-0 text-green-500 text-3xl lg:text-3xl">

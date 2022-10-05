@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet";
+import favicon from './img/title-bg.png';
 import './App.css';
 import Main from "./components/Main.jsx"
 import About from "./components/About.jsx"
@@ -10,12 +12,20 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AnimatedCursor from "react-animated-cursor"
+import Cloud from "./components/Cloud"
+// import { AiFillHtml5 } from "react-icons/ai";
 
 
 
 function App() {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Ahsan Naqvi</title>
+        <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
+      </Helmet>
+
       <AnimatedCursor
         innerSize={20}
         outerSize={15}
@@ -41,6 +51,7 @@ function App() {
       <Main />
       <About />
       <Skills />
+      <Cloud />
       <Education />
       <Accomplishments />
       <Experience />
@@ -48,6 +59,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+
 
     </div>
   );
