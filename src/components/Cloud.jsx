@@ -1,14 +1,9 @@
 import React, { useEffect } from 'react'
-import { AiFillHtml5, AiOutlineLine } from 'react-icons/ai'
-import { DiCss3, DiJqueryLogo, DiNodejs, DiNpm, DiReact } from 'react-icons/di'
-import { IoLogoJavascript } from 'react-icons/io5'
-import { TbBrandNextjs } from 'react-icons/tb'
-import { SiGithub, SiGithubactions, SiHeroku, SiMaterialui, SiMongodb, SiMysql, SiNetlify, SiPostgresql, SiTailwindcss } from 'react-icons/si'
+import { AiOutlineLine } from 'react-icons/ai'
+import { SiGithub, SiGithubactions, SiMongodb, SiMysql, SiNetlify, SiPostgresql } from 'react-icons/si'
 import { GrHeroku } from 'react-icons/gr'
-import { FaGit } from 'react-icons/fa'
 import { MdOutlineDoneAll } from 'react-icons/md'
 import bg from "../img/cloud-bg-3.gif"
-import { Icon } from '@iconify/react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

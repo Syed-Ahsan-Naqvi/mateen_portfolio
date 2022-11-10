@@ -47,32 +47,32 @@ export default function Contact() {
     const form = useRef();
 
 
-    const onSubmit = (data) => {
+    // const onSubmit = (data) => {
 
-        console.warn(data)
-        emailjs.sendForm("service_z66qko8", "template_mqqmnqq", form.current, "iiB2BRlci5q15ZIzg").then((result) => {
-            console.warn(result.text)
+    //     console.warn(data)
+    //     emailjs.sendForm("service_z66qko8", "template_mqqmnqq", form.current, "iiB2BRlci5q15ZIzg").then((result) => {
+    //         console.warn(result.text)
 
-            toast.success('Message sent Successfully', {
-                position: "top-right",
-                autoClose: 2000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
+    //         toast.success('Message sent Successfully', {
+    //             position: "top-right",
+    //             autoClose: 2000,
+    //             hideProgressBar: false,
+    //             closeOnClick: true,
+    //             pauseOnHover: true,
+    //             draggable: true,
+    //             progress: undefined,
 
-            });
-            setname("")
-            setemail("")
-            setsubject("")
-            setmessage("")
-        }, (error) => {
-            console.warn(error.text)
+    //         });
+    //         setname("")
+    //         setemail("")
+    //         setsubject("")
+    //         setmessage("")
+    //     }, (error) => {
+    //         console.warn(error.text)
 
-        }
-        )
-    }
+    //     }
+    //     )
+    // }
 
 
     return (
@@ -90,7 +90,7 @@ export default function Contact() {
                         </form>
                     </div>
                     <div className="col-lg-6" data-aos="zoom-in" >
-                        <form ref={form} onSubmit={handleSubmit(onSubmit)} className="  sm:pl-14 pl-6 py-24 sm:pr-32 pr-14 " style={{ "backgroundColor": "#ef233c" }}  >
+                        <form ref={form} className="  sm:pl-14 pl-6 py-24 sm:pr-32 pr-14 " style={{ "backgroundColor": "#ef233c" }}  >
                             <div className="mb-4" data-aos="fade-left" >
 
                                 <input {...register("name")} type="text" name='name' value={name} onChange={handleChange} style={{ "backgroundColor": "#ef233c", "borderBottom": "1px solid white" }} className=" text-white  border-b-white  w-full py-2 pr-3 placeholder:text-white  leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Name" />
@@ -116,7 +116,7 @@ export default function Contact() {
                             {/* <a href="" className='btn' >Send Message</a> */}
                             <div className='contact ' data-aos="fade-up"  >
                                 <div className='contact-form ' >
-                                    <button type='submit' className='btn  sm:-mt-2 -mt-10 '  >Send Message</button>
+                                    <button className='btn  sm:-mt-2 -mt-10 '  >Send Message</button>
                                     {/* {sent === true && <span className='text-white text-xs font-mono' > <br /> Message sent successfully</span>} */}
                                 </div>
                             </div>

@@ -113,7 +113,7 @@ export default function Main() {
                         <div ref={ref} className=' w-4/5 flex justify-between items-center  mx-auto   fixed top-2 sm:top-0   transition duration-1000 translate-y-0 ' >
 
 
-                            <div ref={suk} className="  text-4xl  sm:text-5xl text-[#ffffff]    hover:text-[#797979] " style={{ "fontFamily": "Ms Madi" }} >Syed Ahsan</div>
+                            <div ref={suk} className="  text-4xl  sm:text-5xl text-[#ffffff]    hover:text-[#797979] " style={{ "fontFamily": "Ms Madi" }} >Arooj Raja</div>
 
                             <div className='flex' >
                                 <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik1} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsTwitter /></i></a>
@@ -143,7 +143,7 @@ export default function Main() {
                         <div className='flex flex-col items-center sm:block ' >
                             <div data-aos="fade-in" >
                                 <p className='text-[#ffffff]  text-base sm:text-6xl font-semibold mb-2 sm:mb-6 ' data-aos="zoom-in" >I'm</p>
-                                <h1 className='text-[#ffffff] text-3xl sm:text-6xl font-bold mb-2 sm:mb-6 ' data-aos="zoom-in" >Ahsan Naqvi</h1>
+                                <h1 className='text-[#ffffff] text-3xl sm:text-6xl font-bold mb-2 sm:mb-6 ' data-aos="zoom-in" >Arooj Raja</h1>
                                 <h2 className='inline-block m-0 h-4 sm:h-9 text-[#ffffff] text-lg sm:text-4xl font-semibold ' >
                                     <Typewriter
                                         options={{

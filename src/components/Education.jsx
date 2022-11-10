@@ -44,7 +44,7 @@ function Education() {
                         <div className="timeline-text">
                             <div className="timeline-date">2018 - 2020</div>
                             <h2>Intermediate in Computer Science</h2>
-                            <h4>PGC, Muslim Town, Lahore</h4>
+                            <h4>Aspire Group of Colleges, Lahore</h4>
                             <p>
                                 Intermediate in Computer Sciences in Punjab Group of Colleges
                             </p>
