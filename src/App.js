@@ -53,7 +53,7 @@ function App() {
       <Skills />
       <Cloud />
       <Education />
-      <Accomplishments />
+      {/* <Accomplishments /> */}
       <Experience />
       <Projects />
       <Testimonials />

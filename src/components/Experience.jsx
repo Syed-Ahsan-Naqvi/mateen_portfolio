@@ -22,7 +22,7 @@ function Experience() {
                         <div className="timeline-text">
                             <div className="timeline-date">2022 - continue</div>
                             <h2>MERN Stack</h2>
-                            <h4>Stack Developer's, Canal Bank, Lahore</h4>
+                            <h4>HashStack Developer's, Canal Bank, Lahore</h4>
                             <p>
                                 Full Stack eCommerce Apps <br /> with Blog Websites <br /> and many UI/UX designs
                             </p>

@@ -22,9 +22,9 @@ function Education() {
                         <div className="timeline-text">
                             <div className="timeline-date">2020 - continue</div>
                             <h2>BS Computer Science</h2>
-                            <h4>NCBA&E University, Jallo, Lahore</h4>
+                            <h4>UMT, Faisal Town, Lahore</h4>
                             <p>
-                                Bachelor in Computer Sciences in National College of Business Administration & Economics
+                                Bachelor in Computer Sciences in University of Management Science and Technology
                             </p>
                             <p>
                                 - Java

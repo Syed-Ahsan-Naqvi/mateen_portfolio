@@ -13,9 +13,11 @@ export default function Footer() {
                             <h3>HashStack developers Software House, Canal Bank </h3>
                             <div className="footer-menu">
                                 <p>+923020012932</p>
+                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                {/* &nbsp; */}
                                 <a href="tel:+923020012932" className='text-gray-50 hover:text-[#313131] text-xl  ' ><BsFillTelephoneOutboundFill /></a>
                                 <p></p>
-                                <p>arooj.raja11122@gmail.com</p>
+                                <p>arooj.raja11222@gmail.com</p>
                             </div>
                             <div className="footer-social w-full ">
                                 <a href="/"><i> <BsTwitter /> </i></a>

@@ -117,10 +117,10 @@ export default function Main() {
 
                             <div className='flex' >
                                 {/* <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik1} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsTwitter /></i></a> */}
-                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik2} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsFacebook /></i></a>
-                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik3} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsInstagram /></i></a>
-                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik4} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsLinkedin /></i></a>
-                                <a className='transition duration-300 hover:scale-110' href="/"><i ref={shik5} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsGithub /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://www.facebook.com/arooj.raja.526?mibextid=ZbWKwL"><i ref={shik2} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsFacebook /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://www.instagram.com/aroojraja32/?igshid=MTIzZWQxMDU%3D"><i ref={shik3} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsInstagram /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://www.linkedin.com/in/arooj-raja-92b426254?original_referer="><i ref={shik4} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsLinkedin /></i></a>
+                                {/* <a className='transition duration-300 hover:scale-110' href="/"><i ref={shik5} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsGithub /></i></a> */}
 
                             </div>
 
