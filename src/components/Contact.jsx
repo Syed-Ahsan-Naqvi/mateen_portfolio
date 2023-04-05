@@ -5,8 +5,8 @@ import * as yup from "yup";
 import gif1 from "../img/Invite(1).gif"
 import Aos from "aos"
 import "aos/dist/aos.css"
-import emailjs from 'emailjs-com';
-import { ToastContainer, toast } from 'react-toastify';
+// import emailjs from 'emailjs-com';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact() {
@@ -23,7 +23,7 @@ export default function Contact() {
         message: yup.string().required("Message is Required").min(2, "Please enter atleast two Characters").max(100, "Message exceed 100 Characters limit")
 
     })
-    const { register, handleSubmit, formState: { errors } } = useForm({ resolver: yupResolver(schema) })
+    const { register, formState: { errors } } = useForm({ resolver: yupResolver(schema) })
 
     const [name, setname] = useState("")
     const [email, setemail] = useState("")
