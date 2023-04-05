@@ -10,10 +10,10 @@ export default function Footer() {
                     <div className="container">
                         <div className="footer-info">
                             <h2>Arooj Raja</h2>
-                            <h3>HashStack Soft House, Canal Bank </h3>
+                            <h3>HashStack developers Software House, Canal Bank </h3>
                             <div className="footer-menu">
-                                {/* <p>+92-3054305202</p> */}
-                                <a href="tel:+923064144735" className='text-gray-50 hover:text-[#313131] text-xl  ' ><BsFillTelephoneOutboundFill /></a>
+                                <p>+923020012932</p>
+                                <a href="tel:+923020012932" className='text-gray-50 hover:text-[#313131] text-xl  ' ><BsFillTelephoneOutboundFill /></a>
                                 <p></p>
                                 <p>arooj.raja11122@gmail.com</p>
                             </div>

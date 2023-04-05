@@ -116,7 +116,7 @@ export default function Main() {
                             <div ref={suk} className="  text-4xl  sm:text-5xl text-[#ffffff]    hover:text-[#797979] " style={{ "fontFamily": "Ms Madi" }} >Arooj Raja</div>
 
                             <div className='flex' >
-                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik1} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsTwitter /></i></a>
+                                {/* <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik1} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsTwitter /></i></a> */}
                                 <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik2} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsFacebook /></i></a>
                                 <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik3} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsInstagram /></i></a>
                                 <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik4} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsLinkedin /></i></a>

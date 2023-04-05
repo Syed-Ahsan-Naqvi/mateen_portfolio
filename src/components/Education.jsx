@@ -46,7 +46,7 @@ function Education() {
                             <h2>Intermediate in Computer Science</h2>
                             <h4>Aspire Group of Colleges, Lahore</h4>
                             <p>
-                                Intermediate in Computer Sciences in Punjab Group of Colleges
+                                Intermediate in Computer Sciences in Aspire Group Of Colleges
                             </p>
                             <p>
                                 - Dev C++
