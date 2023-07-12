@@ -42,7 +42,7 @@ function Experience() {
                         <div className="timeline-text">
                             <div className="timeline-date">2021 - half</div>
                             <h2>Web Developer</h2>
-                            <h4>Peak Solution, Saddar, Lahore</h4>
+                            <h4>Programmers Logics, Lahore</h4>
                             <p>
                                 A Game website integrated with Api's <br /> and connected with MongoDB using NodeJS,<br />express frameworks
                             </p>

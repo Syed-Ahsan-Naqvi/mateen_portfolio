@@ -22,7 +22,7 @@ function App() {
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Arooj Raja</title>
+        <title>Mateen Imran</title>
         <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
       </Helmet>
 

@@ -22,9 +22,9 @@ function Education() {
                         <div className="timeline-text">
                             <div className="timeline-date">2020 - continue</div>
                             <h2>BS Computer Science</h2>
-                            <h4>UMT, Faisal Town, Lahore</h4>
+                            <h4>NCBA&E, Lahore</h4>
                             <p>
-                                Bachelor in Computer Sciences in University of Management Science and Technology
+                                Bachelor in Computer Sciences in National College of Business Administration & Economics
                             </p>
                             <p>
                                 - Java
@@ -44,9 +44,9 @@ function Education() {
                         <div className="timeline-text">
                             <div className="timeline-date">2018 - 2020</div>
                             <h2>Intermediate in Computer Science</h2>
-                            <h4>Aspire Group of Colleges, Lahore</h4>
+                            <h4>Punjab Group of Colleges, Lahore</h4>
                             <p>
-                                Intermediate in Computer Sciences in Aspire Group Of Colleges
+                                Intermediate in Computer Sciences in Punjab Group Of Colleges
                             </p>
                             <p>
                                 - Dev C++

@@ -113,13 +113,13 @@ export default function Main() {
                         <div ref={ref} className=' w-4/5 flex justify-between items-center  mx-auto   fixed top-2 sm:top-0   transition duration-1000 translate-y-0 ' >
 
 
-                            <div ref={suk} className="  text-4xl  sm:text-5xl text-[#ffffff]    hover:text-[#797979] " style={{ "fontFamily": "Ms Madi" }} >Arooj Raja</div>
+                            <div ref={suk} className="  text-4xl  sm:text-5xl text-[#ffffff]    hover:text-[#797979] " style={{ "fontFamily": "Ms Madi" }} >Mateen Imran</div>
 
                             <div className='flex' >
                                 {/* <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="/"><i ref={shik1} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsTwitter /></i></a> */}
-                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://www.facebook.com/arooj.raja.526?mibextid=ZbWKwL"><i ref={shik2} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsFacebook /></i></a>
-                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://www.instagram.com/aroojraja32/?igshid=MTIzZWQxMDU%3D"><i ref={shik3} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsInstagram /></i></a>
-                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://www.linkedin.com/in/arooj-raja-92b426254?original_referer="><i ref={shik4} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsLinkedin /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://www.facebook.com/mateen.ansari.1441?mibextid=LQQJ4d"><i ref={shik2} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsFacebook /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://instagram.com/itxmateen667?igshid=OGQ5ZDc2ODk2ZA=="><i ref={shik3} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsInstagram /></i></a>
+                                <a className='mr-1 sm:mr-2 transition duration-300 hover:scale-110' href="https://www.linkedin.com/in/mateen-imran-37991a24a"><i ref={shik4} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsLinkedin /></i></a>
                                 {/* <a className='transition duration-300 hover:scale-110' href="/"><i ref={shik5} className=' text-lg text-[#fffcff]  sm:text-2xl ' ><BsGithub /></i></a> */}
 
                             </div>
@@ -143,7 +143,7 @@ export default function Main() {
                         <div className='flex flex-col items-center sm:block ' >
                             <div data-aos="fade-in" >
                                 <p className='text-[#ffffff]  text-base sm:text-6xl font-semibold mb-2 sm:mb-6 ' data-aos="zoom-in" >I'm</p>
-                                <h1 className='text-[#ffffff] text-3xl sm:text-6xl font-bold mb-2 sm:mb-6 ' data-aos="zoom-in" >Arooj Raja</h1>
+                                <h1 className='text-[#ffffff] text-3xl sm:text-6xl font-bold mb-2 sm:mb-6 ' data-aos="zoom-in" >Mateen Imran</h1>
                                 <h2 className='inline-block m-0 h-4 sm:h-9 text-[#ffffff] text-lg sm:text-4xl font-semibold ' >
                                     <Typewriter
                                         options={{
